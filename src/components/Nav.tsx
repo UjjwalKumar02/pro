@@ -5,29 +5,29 @@ import Mail from "../icons/Mail";
 
 export default function Nav() {
   return (
-    <div className="min-w-2xl fixed bottom-6 flex justify-center items-center">
-      <div className="bg-white flex items-center justify-between gap-4 border border-gray-200 px-6 py-1 rounded-full shadow">
+    <div className="md:w-2xl w-full fixed bottom-4 flex justify-center items-center">
+      <div className="bg-gray-900 text-gray-100 flex items-center justify-between gap-5 px-5 rounded-xl shadow">
         <a
           href="https://github.com/ujjwalkumar02"
-          className="hover:bg-gray-100 transition-all hover:-translate-y-1 duration-200 p-3 rounded-full"
+          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
         >
           <Github />
         </a>
         <a
           href="https://www.linkedin.com/in/ujjwal-kumar-958ba6272"
-          className="hover:bg-gray-100 transition-all hover:-translate-y-1 duration-200 p-3 rounded-full"
+          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
         >
           <Linkedin />
         </a>
         <a
           href="mailto:ujjwal.kumar.id@gmail.com"
-          className="hover:bg-gray-100 transition-all hover:-translate-y-1 duration-200 p-3 rounded-full"
+          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
         >
           <Mail />
         </a>
         <a
           href="/portfolio/assets/Ujjwal_RESUME-COTZWrna.pdf"
-          className="hover:bg-gray-100 transition-all hover:-translate-y-1 duration-200 p-3 rounded-full"
+          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
         >
           <Document />
         </a>

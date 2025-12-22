@@ -2,8 +2,8 @@ import img from "../../public/maitLogo.jpg";
 
 export default function Education() {
   return (
-    <div className="space-y-6 py-8 px-8">
-      <h2 className="text-2xl font-semibold tracking-tight">education</h2>
+    <div className="space-y-6 py-6 px-8">
+      <h2 className="text-xl font-semibold tracking-tight">education</h2>
 
       <div className="flex md:flex-row flex-col gap-2 justify-between items-center">
         <div className="flex items-center md:gap-4 gap-8">

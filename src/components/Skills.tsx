@@ -2,10 +2,10 @@ import SkillBox from "./SkillBox";
 
 export default function Skills() {
   return (
-    <div className="space-y-6 py-8 px-8">
-      <h2 className="text-2xl font-semibold tracking-tight">skills</h2>
+    <div className="space-y-6 py-6 px-8">
+      <h2 className="text-xl font-semibold tracking-tight">skills</h2>
 
-      <div className="flex gap-2 items-center flex-wrap">
+      <div className="flex gap-1.5 items-center flex-wrap">
         <SkillBox variant="primary" name={"react.js"} />
         <SkillBox variant="primary" name={"next.js"} />
         <SkillBox variant="primary" name={"express.js"} />

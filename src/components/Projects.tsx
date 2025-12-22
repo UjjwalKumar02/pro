@@ -1,12 +1,13 @@
 import ProjectBox from "./ProjectBox";
-import img1 from "../../public/circlesImage.png";
-import img2 from "../../public/brainboxImage.png";
+import img1 from "../../public/circles2-BJTJxEzE.png";
+import img2 from "../../public/app.png";
+
 export default function Projects() {
   return (
     <div className="space-y-6 py-8 px-8">
-      <h2 className="text-2xl font-semibold tracking-tight">recent projects</h2>
+      <h2 className="text-xl font-semibold tracking-tight">projects</h2>
 
-      <div className="w-full space-y-14">
+      <div className="flex items-center justify-center gap-8 flex-wrap w-full">
         {/* <ProjectBox
           image={img1}
           title="hirable"
@@ -42,18 +43,20 @@ export default function Projects() {
         <ProjectBox
           image={img1}
           title="circles"
-          desc="social media app"
-          github="https://google.com"
-          live="https://google.com"
-          stack={["react.js", "express.js", "postgresql", "typescript"]}
+          desc="a community based social app"
+          github="https://github.com/UjjwalKumar02/circles"
+          live="/"
+          stack1={["react.js", "express.js"]}
+          stack2={["postgresql", "typescript"]}
         />
         <ProjectBox
           image={img2}
           title="brainbox"
           desc="a dashboard for saving links"
-          github="https://google.com"
-          live="https://google.com"
-          stack={["react.js", "express.js", "mongodb", "typescript"]}
+          github="https://github.com/UjjwalKumar02/brainbox"
+          live="/"
+          stack1={["react.js", "express.js"]}
+          stack2={["mongodb", "typescript"]}
         />
       </div>
     </div>
