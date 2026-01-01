@@ -5,8 +5,8 @@ import Mail from "../icons/Mail";
 
 export default function Nav() {
   return (
-    <div className="md:w-2xl w-full fixed bottom-4 flex justify-center items-center">
-      <div className="bg-gray-900 text-gray-100 flex items-center justify-between gap-5 px-5 rounded-xl shadow">
+    <div className="w-full bg-black/5 fixed bottom-0 pt-2 pb-4 flex justify-center items-center">
+      <div className="bg-white flex items-center justify-between gap-5 px-5 border border-gray-300 rounded-xl">
         <a
           href="https://github.com/ujjwalkumar02"
           className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"

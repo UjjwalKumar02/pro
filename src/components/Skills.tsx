@@ -11,6 +11,7 @@ export default function Skills() {
         <SkillBox variant="primary" name={"express.js"} />
         <SkillBox variant="primary" name={"javascript"} />
         <SkillBox variant="primary" name={"typescript"} />
+        {/* <SkillBox variant="primary" name={"turborepo"} /> */}
         <SkillBox variant="primary" name={"c++"} />
       </div>
     </div>

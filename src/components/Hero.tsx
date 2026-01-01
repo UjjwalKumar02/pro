@@ -2,6 +2,7 @@
 // import Github from "../icons/Github";
 // import Linkedin from "../icons/Linkedin";
 // import Mail from "../icons/Mail";
+import img from "../../public/profileImage-alt.jpeg";
 
 export default function Hero() {
   return (
@@ -12,9 +13,9 @@ export default function Hero() {
       </div>
 
       <img
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_A_BFmrBMb5hDUuIx5raOsW39EFQDuDUoSDLOPngHHFgvhi-CnuLHH2Aa42mprPnIV5SvhAHmktdksrEj6ERbqkgsVlvrGM8NdVwWmH_jjDv8Qu11AVIdBWtONY2AF2GkpzZ7R-xQUb2Zd1Wo9PG-RYIBvW29hMHm9iP3w94CaHicBHuDRksVjaj5wgIl/s16000-d/gojo-pfp-58.jpg"
+        src={img}
         alt=""
-        className="w-20 h-20 object-cover rounded-full"
+        className="w-20 h-20 object-contain rounded-2xl"
       />
 
       {/* <div className="w-fit flex items-center justify-between">

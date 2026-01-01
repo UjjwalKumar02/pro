@@ -8,14 +8,14 @@ import Skills from "./components/Skills";
 
 export default function Layout() {
   return (
-    <div className="w-[97%] md:max-w-2xl mx-auto shadow-xs">
+    <div className="w-[97%] md:max-w-175 mx-auto shadow-xs">
       <Hero />
       <About />
       <Projects />
       <Education />
       <Skills />
       <Footer />
-      <Nav />
+      {/* <Nav /> */}
     </div>
   );
 }
