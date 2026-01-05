@@ -2,6 +2,7 @@ import ProjectBox from "./ProjectBox";
 import img1 from "../../public/circles2-BJTJxEzE.png";
 import img2 from "../../public/brainbox.png";
 import img3 from "../../public/doodleImage.png";
+import img4 from "../../public/hirableImage.png";
 import ProjectBox2 from "./ProjectBox-2";
 
 export default function Projects() {
@@ -43,6 +44,14 @@ export default function Projects() {
           stack={["next.js", "postgresql"]}
         /> */}
         <ProjectBox2
+          image={img4}
+          title="hirable"
+          desc="a hiring management tool"
+          github="https://github.com/UjjwalKumar02/hirable"
+          live="/"
+          stack={["next.js", "typescript", "postgresql", "nextauth"]}
+        />
+        <ProjectBox2
           image={img3}
           title="doodle"
           desc="a collaborative whiteboard"
@@ -58,17 +67,26 @@ export default function Projects() {
           live="/"
           stack={["react.js", "express.js", "postgresql", "typescript"]}
         />
-        <ProjectBox2
+        {/* <ProjectBox2
           image={img2}
           title="brainbox"
           desc="a dashboard for saving links"
           github="https://github.com/UjjwalKumar02/brainbox"
           live="/"
           stack={["react.js", "express.js", "mongodb", "typescript"]}
-        />
+        /> */}
       </div>
-   
+
       <div className="flex md:hidden items-center justify-center gap-8 flex-wrap w-full">
+        <ProjectBox
+          image={img4}
+          title="hirable"
+          desc="a hiring management tool"
+          github="https://github.com/UjjwalKumar02/hirable"
+          live="/"
+          stack1={["next.js", "typescript"]}
+          stack2={["postgresql", "nextauth"]}
+        />
         <ProjectBox
           image={img3}
           title="doodle"
@@ -87,7 +105,7 @@ export default function Projects() {
           stack1={["react.js", "express.js"]}
           stack2={["postgresql", "typescript"]}
         />
-        <ProjectBox
+        {/* <ProjectBox
           image={img2}
           title="brainbox"
           desc="a dashboard for saving links"
@@ -95,7 +113,7 @@ export default function Projects() {
           live="/"
           stack1={["react.js", "express.js"]}
           stack2={["mongodb", "typescript"]}
-        />
+        /> */}
       </div>
     </div>
   );
