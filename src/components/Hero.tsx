@@ -2,7 +2,7 @@
 // import Github from "../icons/Github";
 // import Linkedin from "../icons/Linkedin";
 // import Mail from "../icons/Mail";
-import img from "../../public/profileImage-alt.jpeg";
+import img from "../../public/pro.jpeg";
 
 export default function Hero() {
   return (
@@ -15,7 +15,7 @@ export default function Hero() {
       <img
         src={img}
         alt=""
-        className="w-20 h-20 object-contain rounded-2xl"
+        className="w-22 object-contain rounded-2xl"
       />
 
       {/* <div className="w-fit flex items-center justify-between">

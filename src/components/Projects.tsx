@@ -48,33 +48,34 @@ export default function Projects() {
           title="hirable"
           desc="a hiring management tool"
           github="https://github.com/UjjwalKumar02/hirable"
-          live="/"
+          live="https://hirable-rho.vercel.app"
           stack={["next.js", "typescript", "postgresql", "nextauth"]}
+        />
+
+        <ProjectBox2
+          image={img1}
+          title="circles"
+          desc="a community based social app"
+          github="https://github.com/UjjwalKumar02/circles"
+          live="https://circles-tawny-seven.vercel.app"
+          stack={["react.js", "express.js", "postgresql", "typescript"]}
+        />
+        <ProjectBox2
+          image={img2}
+          title="brainbox"
+          desc="a dashboard for saving links"
+          github="https://github.com/UjjwalKumar02/brainbox"
+          live="https://brain-box-eight.vercel.app"
+          stack={["react.js", "express.js", "mongodb", "typescript"]}
         />
         <ProjectBox2
           image={img3}
           title="doodle"
           desc="a collaborative whiteboard"
           github="https://github.com/UjjwalKumar02/doodle"
-          live="/"
+          live=""
           stack={["next.js", "websocket", "postgresql", "typescript"]}
         />
-        <ProjectBox2
-          image={img1}
-          title="circles"
-          desc="a community based social app"
-          github="https://github.com/UjjwalKumar02/circles"
-          live="/"
-          stack={["react.js", "express.js", "postgresql", "typescript"]}
-        />
-        {/* <ProjectBox2
-          image={img2}
-          title="brainbox"
-          desc="a dashboard for saving links"
-          github="https://github.com/UjjwalKumar02/brainbox"
-          live="/"
-          stack={["react.js", "express.js", "mongodb", "typescript"]}
-        /> */}
       </div>
 
       <div className="flex md:hidden items-center justify-center gap-8 flex-wrap w-full">
@@ -83,37 +84,38 @@ export default function Projects() {
           title="hirable"
           desc="a hiring management tool"
           github="https://github.com/UjjwalKumar02/hirable"
-          live="/"
+          live="https://hirable-rho.vercel.app"
           stack1={["next.js", "typescript"]}
           stack2={["postgresql", "nextauth"]}
+        />
+
+        <ProjectBox
+          image={img1}
+          title="circles"
+          desc="a community based social app"
+          github="https://github.com/UjjwalKumar02/circles"
+          live="https://circles-tawny-seven.vercel.app"
+          stack1={["react.js", "express.js"]}
+          stack2={["postgresql", "typescript"]}
+        />
+        <ProjectBox
+          image={img2}
+          title="brainbox"
+          desc="a dashboard for saving links"
+          github="https://github.com/UjjwalKumar02/brainbox"
+          live="https://brain-box-eight.vercel.app"
+          stack1={["react.js", "express.js"]}
+          stack2={["mongodb", "typescript"]}
         />
         <ProjectBox
           image={img3}
           title="doodle"
           desc="a collaborative whiteboard"
           github="https://github.com/UjjwalKumar02/doodle"
-          live="/"
+          live=""
           stack1={["next.js", "websocket"]}
           stack2={["postgresql", "typescript"]}
         />
-        <ProjectBox
-          image={img1}
-          title="circles"
-          desc="a community based social app"
-          github="https://github.com/UjjwalKumar02/circles"
-          live="/"
-          stack1={["react.js", "express.js"]}
-          stack2={["postgresql", "typescript"]}
-        />
-        {/* <ProjectBox
-          image={img2}
-          title="brainbox"
-          desc="a dashboard for saving links"
-          github="https://github.com/UjjwalKumar02/brainbox"
-          live="/"
-          stack1={["react.js", "express.js"]}
-          stack2={["mongodb", "typescript"]}
-        /> */}
       </div>
     </div>
   );
