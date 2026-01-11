@@ -15,7 +15,7 @@ export default function Hero() {
       <img
         src={img}
         alt=""
-        className="w-22 object-contain rounded-2xl"
+        className="w-22 h-fit object-contain rounded-2xl"
       />
 
       {/* <div className="w-fit flex items-center justify-between">
