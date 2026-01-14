@@ -46,7 +46,7 @@ export default function Projects() {
         <ProjectBox2
           image={img4}
           title="hirable"
-          desc="a hiring management tool"
+          desc="a custom form builder & response tracker"
           github="https://github.com/UjjwalKumar02/hirable"
           live="https://hirable-rho.vercel.app"
           stack={["next.js", "typescript", "postgresql", "nextauth"]}
@@ -63,7 +63,7 @@ export default function Projects() {
         <ProjectBox2
           image={img2}
           title="brainbox"
-          desc="a dashboard for saving links"
+          desc="a dashboard for storing links & notes"
           github="https://github.com/UjjwalKumar02/brainbox"
           live="https://brain-box-eight.vercel.app"
           stack={["react.js", "express.js", "mongodb", "typescript"]}
@@ -82,7 +82,7 @@ export default function Projects() {
         <ProjectBox
           image={img4}
           title="hirable"
-          desc="a hiring management tool"
+          desc="a custom form builder & response tracker"
           github="https://github.com/UjjwalKumar02/hirable"
           live="https://hirable-rho.vercel.app"
           stack1={["next.js", "typescript"]}
@@ -101,7 +101,7 @@ export default function Projects() {
         <ProjectBox
           image={img2}
           title="brainbox"
-          desc="a dashboard for saving links"
+          desc="a dashboard for storing links & notes"
           github="https://github.com/UjjwalKumar02/brainbox"
           live="https://brain-box-eight.vercel.app"
           stack1={["react.js", "express.js"]}

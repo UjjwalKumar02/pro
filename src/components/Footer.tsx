@@ -1,7 +1,6 @@
 import Github from "../icons/Github";
 import Linkedin from "../icons/Linkedin";
 import Mail from "../icons/Mail";
-import Twitter from "../icons/Twitter";
 
 export default function Footer() {
   return (
@@ -28,13 +27,13 @@ export default function Footer() {
       >
         <Mail />
       </a>
-      <a
+      {/* <a
         href="https://x.com/regressor__"
         target="_blank"
         className="cursor-pointer"
       >
         <Twitter />
-      </a>
+      </a> */}
     </div>
   );
 }
