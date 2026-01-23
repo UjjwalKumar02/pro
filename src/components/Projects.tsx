@@ -1,7 +1,7 @@
 import ProjectBox from "./ProjectBox";
 import img1 from "../../public/circles2-BJTJxEzE.png";
 import img2 from "../../public/brainbox.png";
-import img3 from "../../public/doodleImage.png";
+// import img3 from "../../public/doodleImage.png";
 import img4 from "../../public/hirableImage.png";
 import ProjectBox2 from "./ProjectBox-2";
 
@@ -68,14 +68,14 @@ export default function Projects() {
           live="https://brain-box-eight.vercel.app"
           stack={["react.js", "express.js", "mongodb", "typescript"]}
         />
-        <ProjectBox2
+        {/* <ProjectBox2
           image={img3}
           title="doodle"
           desc="a collaborative whiteboard"
           github="https://github.com/UjjwalKumar02/doodle"
           live=""
           stack={["next.js", "websocket", "postgresql", "typescript"]}
-        />
+        /> */}
       </div>
 
       <div className="flex md:hidden items-center justify-center gap-8 flex-wrap w-full">
@@ -107,7 +107,7 @@ export default function Projects() {
           stack1={["react.js", "express.js"]}
           stack2={["mongodb", "typescript"]}
         />
-        <ProjectBox
+        {/* <ProjectBox
           image={img3}
           title="doodle"
           desc="a collaborative whiteboard"
@@ -115,7 +115,7 @@ export default function Projects() {
           live=""
           stack1={["next.js", "websocket"]}
           stack2={["postgresql", "typescript"]}
-        />
+        /> */}
       </div>
     </div>
   );
