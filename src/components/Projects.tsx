@@ -1,7 +1,5 @@
 import ProjectBox from "./ProjectBox";
 import img1 from "../../public/circles2-BJTJxEzE.png";
-import img2 from "../../public/brainbox.png";
-// import img3 from "../../public/doodleImage.png";
 import img4 from "../../public/hirableImage.png";
 import ProjectBox2 from "./ProjectBox-2";
 
@@ -27,21 +25,13 @@ export default function Projects() {
           live="https://google.com"
           stack={["next.js", "postgresql"]}
         />
-        <ProjectBox
-          image={img1}
-          title="payx"
-          desc="upi payment app"
-          github="https://google.com"
-          live="https://google.com"
-          stack={["next.js", "postgresql"]}
-        />
-        <ProjectBox
-          image={img1}
-          title="drawer"
-          desc="collaborative whitboard app"
-          github="https://google.com"
-          live="https://google.com"
-          stack={["next.js", "postgresql"]}
+        {/* <ProjectBox2
+          image={img4}
+          title="sqlmania"
+          desc="a custom form builder & response tracker"
+          github="https://github.com/UjjwalKumar02/hirable"
+          live="https://hirable-rho.vercel.app"
+          stack={["next.js", "typescript", "postgresql", "nextauth"]}
         /> */}
         <ProjectBox2
           image={img4}
@@ -51,6 +41,14 @@ export default function Projects() {
           live="https://hirable-rho.vercel.app"
           stack={["next.js", "typescript", "postgresql", "nextauth"]}
         />
+        {/* <ProjectBox2
+          image={img4}
+          title="tracker"
+          desc="a custom form builder & response tracker"
+          github="https://github.com/UjjwalKumar02/hirable"
+          live="https://hirable-rho.vercel.app"
+          stack={["next.js", "typescript", "postgresql", "nextauth"]}
+        /> */}
 
         <ProjectBox2
           image={img1}
@@ -60,14 +58,14 @@ export default function Projects() {
           live="https://circles-tawny-seven.vercel.app"
           stack={["react.js", "express.js", "postgresql", "typescript"]}
         />
-        <ProjectBox2
+        {/* <ProjectBox2
           image={img2}
           title="brainbox"
           desc="a dashboard for storing links & notes"
           github="https://github.com/UjjwalKumar02/brainbox"
           live="https://brain-box-eight.vercel.app"
           stack={["react.js", "express.js", "mongodb", "typescript"]}
-        />
+        /> */}
         {/* <ProjectBox2
           image={img3}
           title="doodle"
@@ -98,7 +96,7 @@ export default function Projects() {
           stack1={["react.js", "express.js"]}
           stack2={["postgresql", "typescript"]}
         />
-        <ProjectBox
+        {/* <ProjectBox
           image={img2}
           title="brainbox"
           desc="a dashboard for storing links & notes"
@@ -106,7 +104,7 @@ export default function Projects() {
           live="https://brain-box-eight.vercel.app"
           stack1={["react.js", "express.js"]}
           stack2={["mongodb", "typescript"]}
-        />
+        /> */}
         {/* <ProjectBox
           image={img3}
           title="doodle"
