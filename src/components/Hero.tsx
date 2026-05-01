@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="w-fit flex flex-wrap items-center gap-3">
         <a
-          href="./public/UjjwalKumar-RESUME.pdf"
+          href="/pro/UjjwalKumar-RESUME.pdf"
           target="_blank"
           className="hover:bg-gray-100 transition-all hover:-translate-y-1 duration-200 py-[4.5px] px-2.5 rounded-lg flex items-center gap-1 border border-gray-200 text-xs"
         >
