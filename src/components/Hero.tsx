@@ -1,5 +1,5 @@
 import img from "../../public/pro.jpeg";
-import { Codeforces } from "../icons/Codeforces";
+// import { Codeforces } from "../icons/Codeforces";
 import Document from "../icons/Document";
 import Github from "../icons/Github";
 import Leetcode from "../icons/Leetcode";
@@ -55,13 +55,13 @@ export default function Hero() {
           <Leetcode /> Leetcode
         </a>
 
-        <a
+        {/* <a
           href="https://codeforces.com/profile/Ujjwal.xyz"
           target="_blank"
           className="hover:bg-gray-100 transition-all hover:-translate-y-1 duration-200 py-[4.5px] px-2.5 rounded-lg flex items-center gap-1 border border-gray-200 text-xs"
         >
           <Codeforces /> Codeforces
-        </a>
+        </a> */}
 
         <a
           href="mailto:ujjwal.kumar.id@gmail.com"

@@ -4,7 +4,7 @@ export default function About() {
       <h2 className="text-xl font-semibold tracking-tight">about</h2>
 
       <p className="text-gray-500">
-        Backend developer with proficiency in javascript and c++
+        backend developer with proficiency in javascript and c++
       </p>
     </div>
   );
