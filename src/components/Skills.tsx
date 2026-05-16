@@ -22,7 +22,7 @@ import SkillBox2 from "./SkillBox-2";
 
 export default function Skills() {
   return (
-    <div className="space-y-6.5 py-8 px-8">
+    <div id="skills" className="space-y-6.5 py-8 px-10">
       <h2 className="text-xl font-semibold">skills</h2>
 
       <div className="flex md:flex-row flex-col gap-1.5 md:items-center">

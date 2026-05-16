@@ -7,7 +7,7 @@ import Linkedin from "../icons/Linkedin";
 
 export default function Footer() {
   return (
-    <div className="h-35 flex justify-center items-center md:gap-2 gap-1.5 text-sky-500">
+    <div className="h-30 flex justify-center items-center md:gap-2 gap-1.5 text-sky-500">
       <p className="text-gray-600 text-lg">Hi, you can message me on</p>
 
       <a

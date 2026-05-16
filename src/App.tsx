@@ -2,7 +2,7 @@ import Layout from "./Layout";
 
 function App() {
   return (
-    <div className="pt-5">
+    <div className="bg-gray-50">
       <Layout />
     </div>
   )

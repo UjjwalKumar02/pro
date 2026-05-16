@@ -13,7 +13,7 @@ export default function SkillBox({
 }: Props) {
   const variantStyles = {
     primary: "bg-black px-4 py-1 rounded-lg text-gray-200 font- text-sm",
-    secondary: "bg-sky-50 px-2 py-0.5 rounded-lg border border-gray-100",
+    secondary: "bg-sky-50 px-2 py-0.5 rounded-lg border border-gray-100 text-xs md:text-md",
   };
   return (
     <p

@@ -1,36 +1,10 @@
-import Document from "../icons/Document";
-import Github from "../icons/Github";
-import Linkedin from "../icons/Linkedin";
-import Mail from "../icons/Mail";
-
 export default function Nav() {
   return (
-    <div className="w-full bg-black/5 fixed bottom-0 pt-2 pb-4 flex justify-center items-center">
-      <div className="bg-white flex items-center justify-between gap-5 px-5 border border-gray-300 rounded-xl">
-        <a
-          href="https://github.com/ujjwalkumar02"
-          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
-        >
-          <Github />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ujjwal-kumar-958ba6272"
-          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
-        >
-          <Linkedin />
-        </a>
-        <a
-          href="mailto:ujjwal.kumar.id@gmail.com"
-          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
-        >
-          <Mail />
-        </a>
-        <a
-          href="/portfolio/assets/Ujjwal_RESUME-COTZWrna.pdf"
-          className="transition-all hover:-translate-y-1 duration-200 px-2 py-2.5 rounded-full"
-        >
-          <Document />
-        </a>
+    <div className="bg-white flex justify-end gap-7 py-4 border-b border-gray-100">
+      <div className="flex px-10 items-center gap-7 text-sm mt-1">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
       </div>
     </div>
   );

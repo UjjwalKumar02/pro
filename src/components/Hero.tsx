@@ -8,8 +8,8 @@ import Mail from "../icons/Mail";
 
 export default function Hero() {
   return (
-    <div className="bg-white flex flex-col justify-between gap-7 mt-3 py-8 px-8">
-      <div className="bg-white flex justify-between md:items-center gap-4 py-7">
+    <div className="bg-white flex flex-col justify-between gap-7 py-6 px-10">
+      <div className="bg-white flex justify-between md:items-center gap-4 py-8">
         <div className="space-y-3">
           <h1 className="text-4xl font-semibold tracking-tighter">ujjwal</h1>
           <p>aspiring software engineer</p>

@@ -2,7 +2,8 @@ import img from "../../public/maitLogo.jpg";
 
 export default function Education() {
   return (
-    <div className="space-y-6 py-8 px-8">
+    <div className="">
+      <div className="space-y-6 py-8 px-10">
       <h2 className="text-xl font-semibold tracking-tight">education</h2>
 
       <div className="flex md:flex-row flex-col gap-2 justify-between md:items-center">
@@ -26,6 +27,7 @@ export default function Education() {
           <p>2026</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
