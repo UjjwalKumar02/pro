@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Target from "./components/Target";
+// import Target from "./components/Target";
 
 export default function Layout() {
   return (
