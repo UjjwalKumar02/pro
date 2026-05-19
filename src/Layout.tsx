@@ -16,7 +16,7 @@ export default function Layout() {
       <Projects />
       <Education />
       <Skills />
-      <Target />
+      {/* <Target /> */}
       <Footer />
     </div>
   );
