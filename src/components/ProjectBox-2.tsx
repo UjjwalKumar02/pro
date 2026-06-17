@@ -51,13 +51,13 @@ export default function ProjectBox2({
           </div>
         </div>
 
-        <p className="text-gray-500 text-sm mt-4">{desc}</p>
+        <p className="text-gray-500 text-sm mt-4 max-w-70">{desc}</p>
 
-        <div className="flex gap-1 mt-3">
+        <div className="flex gap-1 mt-3 max-w-70">
           {stack.map((s) => (
             <SkillBox
               variant="secondary"
-              className="text-xs"
+              className="text-xs h-fit w-fit"
               fullWidth={true}
               name={s}
             />

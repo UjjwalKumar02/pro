@@ -42,6 +42,7 @@ export default function Projects() {
             live="https://hirable-rho.vercel.app"
             stack={["next.js", "typescript", "postgresql", "nextauth"]}
           />
+          
           {/* <ProjectBox2
           image={img4}
           title="tracker"
