@@ -86,11 +86,11 @@ export default function Hero() {
           <h2 className="font-medium mb-2">Things i am learning...</h2>
           <ModuleBox
             title="aptitude"
-            content={["quant", "logical", "english"]}
+            content={["quant", "logical", "grammer"]}
           />
           <ModuleBox
             title="cs theory"
-            content={["operating system", "computer network", "dbms"]}
+            content={["operating system", "dbms", "oops", "computer networks"]}
           />
           <ModuleBox
             title="sql"
@@ -103,7 +103,7 @@ export default function Hero() {
               "rank",
               "case statements",
               "indexes",
-              "view",
+              "views",
             ]}
           />
           <ModuleBox
@@ -131,6 +131,64 @@ export default function Hero() {
             title="competitive programming"
             content={["pattern questions"]}
           />
+
+          <ModuleBox
+            title="backend"
+            content={[
+              "framworks/runtime : node.js, bun, trpc, nest.js, express.js",
+              "api styles : webhooks, server-side events, polling, graphql, gRPC, websocket, rest",
+              "git and bash",
+              "auth",
+              "theory : hashing and api security",
+              "(file, image, video) handling",
+              "payments handling",
+              "rate limiting",
+              "background jobs and message brokers (queues & workers, event streaming)",
+              "search engines",
+              "testing basics and ci",
+              "distributed sytems & microservices",
+              "go basics",
+              "indexing",
+              "extra : web scraping basics, webrtc basics, linux",
+            ]}
+          />
+          <ModuleBox
+            title="ai"
+            content={[
+              "rag - embedding, retrieval, routing, similarity search, vector db",
+              "inngest & sandbox",
+              "agents",
+              "mcp",
+              "skills",
+              "workflow",
+              "agentic ai",
+            ]}
+          />
+          <ModuleBox
+            title="devops"
+            content={[
+              "ci/cd",
+              "docker (containerization)",
+              "kubernatives (container orchestration)",
+              "vertical scaling",
+              "nginx, pm2, https, ssh, key-pair, github actions",
+              "aws - ec2, s3, auto-scaling, lambda",
+            ]}
+          />
+          <ModuleBox
+            title="python environment"
+            content={[
+              "python",
+              "uv",
+              "langchain",
+              "langgraph",
+              "langsmith",
+              "fastapi",
+              "django",
+            ]}
+          />
+
+          <ModuleBox title="system design" content={["basics"]} />
           <ModuleBox
             title="frontend"
             content={[
@@ -142,57 +200,23 @@ export default function Hero() {
               "pagination",
             ]}
           />
-          <ModuleBox
-            title="backend"
-            content={[
-              "auth",
-              "api",
-              "asynchronous",
-              "payments",
-              "file handling",
-              "rate limiting",
-              "testing",
-              "microservices",
-              "go",
-              "message brokers",
-              "search engines",
-              "web scraping",
-              "indexing",
-            ]}
-          />
-          <ModuleBox
-            title="ai"
-            content={[
-              "rag - embedding, retrieval, routing, similarity search, vector db",
-              "sandboxes",
-              "agents",
-              "workflow",
-              "agentic ai",
-            ]}
-          />
-          <ModuleBox
-            title="devops"
-            content={[
-              "ci and cd",
-              "github actions",
-              "nginx, pm2, https, ssh, key-pair",
-              "aws - ec2, s3, lambda, auto-scaling",
-              "docker - container, network, volume",
-              "vertical scaling",
-              "kubernatives",
-            ]}
-          />
-          <ModuleBox
-            title="python environment"
-            content={["django", "fastapi", "langchain", "langgraph", "uv"]}
-          />
           <ModuleBox title="open source contribution" />
+          <ModuleBox
+            title="atlas"
+            content={[
+              "prompt to ui component",
+              "agents",
+              "inngest",
+              "sandbox",
+              "microservices ?",
+            ]}
+          />
+
           <ModuleBox
             title="c# environment"
             content={["c#", "dotnet", "aspnet"]}
           />
-          <ModuleBox title="system design" />
-          <ModuleBox title="machine coding" />
+          {/* <ModuleBox title="machine coding" /> */}
 
           <div className="mt-4 md:hidden">
             <ProjectBox
