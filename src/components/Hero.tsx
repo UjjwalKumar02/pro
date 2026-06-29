@@ -22,7 +22,7 @@ export default function Hero() {
           <p>aspiring software engineer</p>
         </div>
 
-        <button onClick={() => setOpen((prev) => !prev)}>
+        <button onClick={() => console.log("hi")}>
           <img
             src={img}
             alt=""

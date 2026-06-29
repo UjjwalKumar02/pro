@@ -7,7 +7,7 @@ interface Props {
   title: string;
   desc: string;
   github: string;
-  live: string;
+  live?: string;
   stack1: string[];
   stack2: string[];
 }

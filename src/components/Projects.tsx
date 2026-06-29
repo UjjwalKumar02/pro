@@ -1,6 +1,7 @@
 import ProjectBox from "./ProjectBox";
 import img1 from "../../public/circles2-BJTJxEzE.png";
-import img4 from "../../public/hirableImage.png";
+import img2 from "../../public/agent.png";
+import img3 from "../../public/landingImage.png";
 import ProjectBox2 from "./ProjectBox-2";
 
 export default function Projects() {
@@ -10,24 +11,8 @@ export default function Projects() {
         <h2 className="text-xl font-semibold tracking-tight">projects</h2>
 
         <div className="hidden md:flex flex-col items-center justify-center gap-8 flex-wrap w-full">
-          {/* <ProjectBox
-          image={img1}
-          title="hirable"
-          desc="ai-powered hiring app"
-          github="https://google.com"
-          live="https://google.com"
-          stack={["next.js", "postgresql"]}
-        />
-        <ProjectBox
-          image={img1}
-          title="openss"
-          desc="oss finding app"
-          github="https://google.com"
-          live="https://google.com"
-          stack={["next.js", "postgresql"]}
-        />
-        {/* <ProjectBox2
-          image={img4}
+          {/* <ProjectBox2
+          image={img3}
           title="sqlmania"
           desc="a custom form builder & response tracker"
           github="https://github.com/UjjwalKumar02/hirable"
@@ -35,22 +20,20 @@ export default function Projects() {
           stack={["next.js", "typescript", "postgresql", "nextauth"]}
         /> */}
           <ProjectBox2
-            image={img4}
+            image={img3}
             title="hirable"
-            desc="a custom form builder & response tracker"
-            github="https://github.com/UjjwalKumar02/hirable"
-            live="https://hirable-rho.vercel.app"
-            stack={["next.js", "typescript", "postgresql", "nextauth"]}
+            desc="custom form builder & ai-powered queries"
+            github="https://github.com/UjjwalKumar02/Hirable-org"
+            live="https://hirable-client.vercel.app/"
+            stack={["next.js", "express.js", "typescript", "postgresql"]}
           />
-          
-          {/* <ProjectBox2
-          image={img4}
-          title="tracker"
-          desc="a custom form builder & response tracker"
-          github="https://github.com/UjjwalKumar02/hirable"
-          live="https://hirable-rho.vercel.app"
-          stack={["next.js", "typescript", "postgresql", "nextauth"]}
-        /> */}
+          <ProjectBox2
+            image={img2}
+            title="atlas agent"
+            desc="an autonomous coding agent"
+            github="https://github.com/UjjwalKumar02/Atlas-agent"
+            stack={["bun", "typescript", "gemini", "chalk"]}
+          />
 
           <ProjectBox2
             image={img1}
@@ -80,13 +63,22 @@ export default function Projects() {
 
         <div className="flex md:hidden items-center justify-center gap-8 flex-wrap w-full">
           <ProjectBox
-            image={img4}
+            image={img3}
             title="hirable"
-            desc="a custom form builder & response tracker"
-            github="https://github.com/UjjwalKumar02/hirable"
-            live="https://hirable-rho.vercel.app"
-            stack1={["next.js", "typescript"]}
-            stack2={["postgresql", "nextauth"]}
+            desc="custom form builder & ai-powered queries"
+            github="https://github.com/UjjwalKumar02/Hirable-org"
+            live="https://hirable-client.vercel.app/"
+            stack1={["next.js", "express.js"]}
+            stack2={["typescript", "postgresql"]}
+          />
+
+          <ProjectBox
+            image={img2}
+            title="atlas agent"
+            desc="an autonomous coding agent"
+            github="https://github.com/UjjwalKumar02/Atlas-agent"
+            stack1={["bun", "typescript"]}
+            stack2={["gemini", "chalk"]}
           />
 
           <ProjectBox
@@ -98,24 +90,6 @@ export default function Projects() {
             stack1={["react.js", "express.js"]}
             stack2={["postgresql", "typescript"]}
           />
-          {/* <ProjectBox
-          image={img2}
-          title="brainbox"
-          desc="a dashboard for storing links & notes"
-          github="https://github.com/UjjwalKumar02/brainbox"
-          live="https://brain-box-eight.vercel.app"
-          stack1={["react.js", "express.js"]}
-          stack2={["mongodb", "typescript"]}
-        /> */}
-          {/* <ProjectBox
-          image={img3}
-          title="doodle"
-          desc="a collaborative whiteboard"
-          github="https://github.com/UjjwalKumar02/doodle"
-          live=""
-          stack1={["next.js", "websocket"]}
-          stack2={["postgresql", "typescript"]}
-        /> */}
         </div>
       </div>
     </div>

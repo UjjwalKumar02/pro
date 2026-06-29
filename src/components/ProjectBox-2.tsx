@@ -7,7 +7,7 @@ interface Props {
   title: string;
   desc: string;
   github: string;
-  live: string;
+  live?: string;
   stack: string[];
 }
 
@@ -27,7 +27,7 @@ export default function ProjectBox2({
         className="w-[46%] h-42 object-cover rounded-l-2xl border-r border-gray-200"
       />
 
-      <div className="space-y-3">
+      <div className="space-y-3 w-full pr-6">
         <div className="w-full flex items-center justify-between gap-4">
           <h2 className="text-black text-xl font-medium tracking-tight text-">
             {title}
